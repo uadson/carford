@@ -1,0 +1,22 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container">
+<h1>Order n. {{ order.id }}</h1>
+
+<div class="jumbotron">
+<p>
+    <ul>
+        <li>User id: {{ order.user_id }}</li>
+        <li>User username: {{ user.username }}</li>
+    </ul>
+    <ul>
+        <li>Car id: {{ car.id}}</li>
+        <li>Car color: {{ car.color}}</li>
+        <li>Car model: {{ car.model }}</li>
+    </ul>
+    
+</p>
+</div>
+<a href="{{ url_for('webui.index')}}">Back</a>
+</div>
+{% endblock %}

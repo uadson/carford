@@ -1,0 +1,64 @@
+aniso8601 @ file:///home/uadson/.cache/pypoetry/artifacts/b8/04/01/19932460e5acb2c6a5fa4a5215fe0edf6d44a603a19071cb42f0f952a8/aniso8601-9.0.1-py2.py3-none-any.whl
+asttokens @ file:///home/uadson/.cache/pypoetry/artifacts/65/b4/20/52f7f658f9fdcbd62279a2ca8450155da4aad34726994d136bb36382e0/asttokens-2.1.0-py2.py3-none-any.whl
+attrs @ file:///home/uadson/.cache/pypoetry/artifacts/b9/be/54/b0e6347a5b526e41f45aea10a61b5240586c74ee17e1d53c827b4d7288/attrs-22.1.0-py2.py3-none-any.whl
+backcall @ file:///home/uadson/.cache/pypoetry/artifacts/fb/29/4f/82bf4440abab9ac911c9bce7a071841452e2457539cf29aec0cdb32bf1/backcall-0.2.0-py2.py3-none-any.whl
+black @ file:///home/uadson/.cache/pypoetry/artifacts/68/c2/8a/f75aaccd5ae45cf4d1d17da7b1b9bc4721fe82dba2779809d07de2117a/black-22.10.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+blinker @ file:///home/uadson/.cache/pypoetry/artifacts/be/bd/5a/4d7923a4e6ea919552ddd0a35181e05cf48daf878f1c910ee74f9b61e6/blinker-1.5-py2.py3-none-any.whl
+click @ file:///home/uadson/.cache/pypoetry/artifacts/63/f3/4c/2270b95f4d37b9ea73cd401abe68b6e9ede30380533cd4e7118a8e3aa3/click-8.1.3-py3-none-any.whl
+decorator @ file:///home/uadson/.cache/pypoetry/artifacts/e7/34/b4/d4da5f5611ea34c830b51a6afe76aa0e51493309a0c0f176f5217b6960/decorator-5.1.1-py3-none-any.whl
+dominate @ file:///home/uadson/.cache/pypoetry/artifacts/8b/e4/a9/9f73175319d9258130193be63670e282a71a5946ea53c23a8fd56ff8e1/dominate-2.7.0-py2.py3-none-any.whl
+dynaconf @ file:///home/uadson/.cache/pypoetry/artifacts/dc/99/2a/611a2f2213758ad4d701353dc6151ad1edeb6f78f7e98cdee80253bf4b/dynaconf-3.1.11-py2.py3-none-any.whl
+exceptiongroup @ file:///home/uadson/.cache/pypoetry/artifacts/bb/3a/53/6812bb7c51006455a96c65acf130ab3319fbc502be132a3b494a23d45f/exceptiongroup-1.0.0-py3-none-any.whl
+executing @ file:///home/uadson/.cache/pypoetry/artifacts/be/9e/f8/5b229fc59420c705855e4d4b4c07bbc1a176b16ae17061321791bad46c/executing-1.2.0-py2.py3-none-any.whl
+flake8 @ file:///home/uadson/.cache/pypoetry/artifacts/62/a7/26/e48f1b5cd33d20534deee3ede65fe06f72c5063597ad00e7888bc61b6e/flake8-5.0.4-py2.py3-none-any.whl
+Flask @ file:///home/uadson/.cache/pypoetry/artifacts/5b/85/e0/a957275f44e47e734a4ff2ae364494492ac28fb10e6f11d6bd2cc74624/Flask-2.2.2-py3-none-any.whl
+Flask-Admin==1.6.0
+Flask-Bootstrap==3.3.7.1
+Flask-DebugToolbar @ file:///home/uadson/.cache/pypoetry/artifacts/dd/09/c7/98cf4b9041bfdec2d68e8a51e36a24ef62f6dec1f93765fd6a40fe2661/Flask_DebugToolbar-0.13.1-py3-none-any.whl
+Flask-DotEnv==0.1.2
+Flask-RESTful @ file:///home/uadson/.cache/pypoetry/artifacts/8c/d1/1a/86fe0142be5fe488f349d3e303be99581cc3792222559f1fcdc08a5b91/Flask_RESTful-0.3.9-py2.py3-none-any.whl
+flask-shell-ipython @ file:///home/uadson/.cache/pypoetry/artifacts/0b/c1/a4/da6fa931366a0812140a21b7fc35086298fa8a75b158066c1dc3a3fe7d/flask_shell_ipython-0.4.1-py2.py3-none-any.whl
+flask-simplelogin @ file:///home/uadson/.cache/pypoetry/artifacts/d9/6e/e0/5d153354ea9ba992ab98c9dcb665ed11da943d030eb9289007c46ec3f8/flask_simplelogin-0.1.1-py3-none-any.whl
+Flask-SQLAlchemy @ file:///home/uadson/.cache/pypoetry/artifacts/bd/38/04/31cc60cd8fbcaf2d2a44bce9fc2bb920dadc0d2d9265c7c3b6367ca617/Flask_SQLAlchemy-3.0.2-py3-none-any.whl
+Flask-WTF @ file:///home/uadson/.cache/pypoetry/artifacts/7f/96/ea/bc50af823f67738615fad9f522588b167c92aedb4881cc3b5aa5a1b76a/Flask_WTF-0.15.1-py2.py3-none-any.whl
+greenlet @ file:///home/uadson/.cache/pypoetry/artifacts/b4/3f/c9/6f27c8e1592148f8d015d18d1203c409f1c2b3dfa337385dd7f01d2b90/greenlet-2.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+iniconfig @ file:///home/uadson/.cache/pypoetry/artifacts/1d/67/0c/79706e7a41ef01be0b1a38aa3b4ddc9bd800a95ccd8d8dc7de4e090623/iniconfig-1.1.1-py2.py3-none-any.whl
+ipdb==0.13.9
+ipython @ file:///home/uadson/.cache/pypoetry/artifacts/43/69/26/7176acde5546871ad7bd4c0b1ee26072e0ee97c6cfc95adddc40125ad7/ipython-8.6.0-py3-none-any.whl
+isort @ file:///home/uadson/.cache/pypoetry/artifacts/12/e3/f1/e8e484225dcc659de6e4ac34a4ad996cb71f36119e54e71462cc7ad7e8/isort-5.10.1-py3-none-any.whl
+itsdangerous @ file:///home/uadson/.cache/pypoetry/artifacts/2e/15/8d/e1a5243416994d875e03f548c0c5af64a08970297056408d4e67e6bc28/itsdangerous-2.1.2-py3-none-any.whl
+jedi @ file:///home/uadson/.cache/pypoetry/artifacts/89/0a/c4/538f23985c27b947d71525ea0122d328590341486a672160c2f49614db/jedi-0.18.1-py2.py3-none-any.whl
+Jinja2 @ file:///home/uadson/.cache/pypoetry/artifacts/49/36/ae/943f6cd852641f7249acddef711eb97d0c9ed91d7f435c798b6d7041ca/Jinja2-3.1.2-py3-none-any.whl
+MarkupSafe @ file:///home/uadson/.cache/pypoetry/artifacts/dd/cc/d7/91f68383c04a15a87f0a2b31599de891c89b1d15e309273f759daf132c/MarkupSafe-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+matplotlib-inline @ file:///home/uadson/.cache/pypoetry/artifacts/bc/07/f7/c44c5405a30fb00d6c79402498d2c5fa3347233bf2ee3366907a957175/matplotlib_inline-0.1.6-py3-none-any.whl
+mccabe @ file:///home/uadson/.cache/pypoetry/artifacts/6e/13/d3/27dd3d81419a63f54cee1343db4375f63135b517d83e52d7447875f739/mccabe-0.7.0-py2.py3-none-any.whl
+mypy-extensions @ file:///home/uadson/.cache/pypoetry/artifacts/2f/c6/09/3e1afdcb75322c65b786e63cd7e879b6be3db36dea78ca376db5483ae4/mypy_extensions-0.4.3-py2.py3-none-any.whl
+packaging @ file:///home/uadson/.cache/pypoetry/artifacts/d3/1f/90/3f2473250ebd055fe7f0856810677783949fc0d2e5f25bbb4dc00ad0a9/packaging-21.3-py3-none-any.whl
+parso @ file:///home/uadson/.cache/pypoetry/artifacts/04/cf/93/db0ec6dfe01dd708f00c55e2af6f87b1c40a7d6db1cc6277e993e02ce9/parso-0.8.3-py2.py3-none-any.whl
+pathspec @ file:///home/uadson/.cache/pypoetry/artifacts/21/5e/3c/35aa240c8c4da8aad6f1551b1b00065eb46e60eafb2ab377dc10eb3c04/pathspec-0.10.1-py3-none-any.whl
+pexpect @ file:///home/uadson/.cache/pypoetry/artifacts/bc/0b/e1/fedd0f64915c9de2dd93ed6f45d2a3ac320f3f40f97c4826c98b730101/pexpect-4.8.0-py2.py3-none-any.whl
+pickleshare @ file:///home/uadson/.cache/pypoetry/artifacts/75/21/72/1a0f0aed0df5b89b08e37fa429335f3a9912304726945b3745e658c6db/pickleshare-0.7.5-py2.py3-none-any.whl
+platformdirs @ file:///home/uadson/.cache/pypoetry/artifacts/ea/8e/52/e5ac2f14474cef8f0fd44b4aa7d6968bfa89442d1b88ab567c446eae70/platformdirs-2.5.2-py3-none-any.whl
+pluggy @ file:///home/uadson/.cache/pypoetry/artifacts/49/3e/55/309ec3705ba3309d817d531002c0a02f643d06c5d5a889ce43236130d5/pluggy-1.0.0-py2.py3-none-any.whl
+prompt-toolkit @ file:///home/uadson/.cache/pypoetry/artifacts/fb/f2/17/8c3a513ab97a645fff20b810bc7f5e50bd0e52b6d726c51b6d237e5ebb/prompt_toolkit-3.0.31-py3-none-any.whl
+ptyprocess @ file:///home/uadson/.cache/pypoetry/artifacts/aa/3c/ec/7269eb3c6edddfa5e263334c296eb83dca74d9250cfbabc37f7f4ba4be/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///home/uadson/.cache/pypoetry/artifacts/3f/3a/24/0a545171a889b08c24fa379180cac85e1f4e00065002bc19eba65e0b9f/pure_eval-0.2.2-py3-none-any.whl
+pycodestyle @ file:///home/uadson/.cache/pypoetry/artifacts/5f/82/b7/55e8169e417019a01aec56ea9eaf01d969188a4c827c240a440a3209bf/pycodestyle-2.9.1-py2.py3-none-any.whl
+pyflakes @ file:///home/uadson/.cache/pypoetry/artifacts/e7/19/53/bae1a38831f54ce33cffad8f06e90b911ed4beb5f2e985bc465751a1a1/pyflakes-2.5.0-py2.py3-none-any.whl
+Pygments @ file:///home/uadson/.cache/pypoetry/artifacts/b5/d5/c4/6dbc728128a5cb37e5da9956d152c4eba518e3ff024956d0907394b234/Pygments-2.13.0-py3-none-any.whl
+pyparsing @ file:///home/uadson/.cache/pypoetry/artifacts/e1/09/c0/6a6df3ef412eb19fcda1b353ea54e3b48f9c518348fadd0967a962cbb6/pyparsing-3.0.9-py3-none-any.whl
+pytest @ file:///home/uadson/.cache/pypoetry/artifacts/b8/86/20/97cf6f97c33f42e67f5bb06e0e518e467c43119aa98310a18701c04846/pytest-7.2.0-py3-none-any.whl
+pytest-flask @ file:///home/uadson/.cache/pypoetry/artifacts/c7/17/93/2d3e8b2423c63013232b251cd142d06fa0909364716355d96aee7e0d97/pytest_flask-1.2.0-py3-none-any.whl
+python-dotenv==0.21.0
+pytz @ file:///home/uadson/.cache/pypoetry/artifacts/91/9a/f6/b72ae074ae24e891efc3c97525bc886369624c4b320563fba1e54f05cd/pytz-2022.6-py2.py3-none-any.whl
+six @ file:///home/uadson/.cache/pypoetry/artifacts/89/b2/f8/fd92b6d5daa0f8889429b2fc67ec21eedc5cae5d531ee2853828ced6c7/six-1.16.0-py2.py3-none-any.whl
+SQLAlchemy @ file:///home/uadson/.cache/pypoetry/artifacts/c6/48/3d/12b4aae7c41afa4c1dc4486ecb5fa10ad0b250798d1c52f2ffaa4da1c4/SQLAlchemy-1.4.42-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+SQLAlchemy-serializer==1.4.1
+stack-data @ file:///home/uadson/.cache/pypoetry/artifacts/ce/cf/37/afe2b2ef11d9491ba0f495f0f6928e6bf19067a521ddac6532f7c9d8db/stack_data-0.6.0-py3-none-any.whl
+toml @ file:///home/uadson/.cache/pypoetry/artifacts/51/ac/24/674da558495229c57c3d2333cb23e24aac7aadf723ced29e2cc41a9e6e/toml-0.10.2-py2.py3-none-any.whl
+tomli @ file:///home/uadson/.cache/pypoetry/artifacts/62/12/b6/6db9ebb9c8e1a6c5aa8a92ae73098d8119816b5e8507490916621bc305/tomli-2.0.1-py3-none-any.whl
+traitlets @ file:///home/uadson/.cache/pypoetry/artifacts/16/2b/82/9a2923ffcebcb7476dd375ff70138d69eef74bab42e4b2cc4211f3ec76/traitlets-5.5.0-py3-none-any.whl
+visitor==0.1.3
+wcwidth @ file:///home/uadson/.cache/pypoetry/artifacts/f1/2c/b7/d07af82a7caf20dd582cb8799baa7afd56c6240109e527ee2a904b43e4/wcwidth-0.2.5-py2.py3-none-any.whl
+Werkzeug @ file:///home/uadson/.cache/pypoetry/artifacts/28/6a/82/10f659db5fd9fd23f295caf59cb7e0b81881c95f138922806109110343/Werkzeug-2.2.2-py3-none-any.whl
+WTForms @ file:///home/uadson/.cache/pypoetry/artifacts/c6/0e/db/6d08bcca4e1337a277abd0b6c24be37c5dacd92eccd873db0b9bb8fd5f/WTForms-3.0.1-py3-none-any.whl
