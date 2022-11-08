@@ -10,7 +10,14 @@ class Base(models.Model):
     class Meta:
         abstract = True
         
+
+class Store(Base):
+    name = models.CharField(max_length=150)
+    
+    class Meta:
+        ordering = ['-name']
         
+
 class Car(Base):
 
     class Color(models.TextChoices):
@@ -26,6 +33,7 @@ class Car(Base):
     name = models.CharField(max_length=10)
     color = models.CharField(max_length=1, choices=Color.choices)
     model = models.CharField(max_length=4, choices=CarModel.choices)
+    store = models.ForeignKey(Store, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ['-name']
@@ -33,16 +41,11 @@ class Car(Base):
         
 class Customer(Base):
     name = models.CharField(max_length=150)
+    store = models.ForeignKey(Store, on_delete=models.CASCADE)
     
     class Meta:
         ordering = ['-name']
-        
-        
-class Store(Base):
-    name = models.CharField(max_length=150)
-    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name='shop_stores', blank=True, null=True)
-    car = models.ForeignKey(Car, on_delete=models.CASCADE, related_name='shop_stores', blank=True, null=True)
-    
+  
     
 class Order(Base):
     store = models.ForeignKey(Store, on_delete=models.CASCADE, related_name='shop_orders')
