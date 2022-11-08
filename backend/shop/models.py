@@ -40,8 +40,8 @@ class Customer(Base):
         
 class Store(Base):
     name = models.CharField(max_length=150)
-    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name='shop_stores')
-    car = models.ForeignKey(Car, on_delete=models.CASCADE, related_name='shop_stores')
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name='shop_stores', blank=True, null=True)
+    car = models.ForeignKey(Car, on_delete=models.CASCADE, related_name='shop_stores', blank=True, null=True)
     
     
 class Order(Base):
