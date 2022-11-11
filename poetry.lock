@@ -40,12 +40,56 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "certifi"
+version = "2022.9.24"
+description = "Python package for providing Mozilla's CA Bundle."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "charset-normalizer"
+version = "2.1.1"
+description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.extras]
+unicode_backport = ["unicodedata2"]
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
 category = "main"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
+
+[[package]]
+name = "coreapi"
+version = "2.3.3"
+description = "Python client library for Core API."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+coreschema = "*"
+itypes = "*"
+requests = "*"
+uritemplate = "*"
+
+[[package]]
+name = "coreschema"
+version = "0.0.4"
+description = "Core Schema."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+jinja2 = "*"
 
 [[package]]
 name = "decorator"
@@ -84,6 +128,40 @@ python-versions = ">=3.6"
 Django = ">=3.2"
 
 [[package]]
+name = "djangorestframework"
+version = "3.14.0"
+description = "Web APIs for Django, made easy."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+django = ">=3.0"
+pytz = "*"
+
+[[package]]
+name = "drf-yasg"
+version = "1.21.4"
+description = "Automated generation of real Swagger/OpenAPI 2.0 schemas from Django Rest Framework code."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+coreapi = ">=2.3.3"
+coreschema = ">=0.0.4"
+django = ">=2.2.16"
+djangorestframework = ">=3.10.3"
+inflection = ">=0.3.1"
+packaging = ">=21.0"
+pytz = ">=2021.1"
+"ruamel.yaml" = ">=0.16.13"
+uritemplate = ">=3.0.0"
+
+[package.extras]
+validation = ["swagger-spec-validator (>=2.1.0)"]
+
+[[package]]
 name = "executing"
 version = "1.2.0"
 description = "Get the currently executing AST node of a frame, and other information"
@@ -93,6 +171,22 @@ python-versions = "*"
 
 [package.extras]
 tests = ["asttokens", "pytest", "littleutils", "rich"]
+
+[[package]]
+name = "idna"
+version = "3.4"
+description = "Internationalized Domain Names in Applications (IDNA)"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "inflection"
+version = "0.5.1"
+description = "A port of Ruby on Rails inflector to Python"
+category = "main"
+optional = false
+python-versions = ">=3.5"
 
 [[package]]
 name = "ipython"
@@ -130,6 +224,14 @@ test = ["pytest (<7.1)", "pytest-asyncio", "testpath"]
 test_extra = ["pytest (<7.1)", "pytest-asyncio", "testpath", "curio", "matplotlib (!=3.2.0)", "nbformat", "numpy (>=1.20)", "pandas", "trio"]
 
 [[package]]
+name = "itypes"
+version = "1.2.0"
+description = "Simple immutable types for python."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "jedi"
 version = "0.18.1"
 description = "An autocompletion tool for Python that can be used for text editors."
@@ -145,6 +247,28 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["Django (<3.1)", "colorama", "docopt", "pytest (<7.0.0)"]
 
 [[package]]
+name = "jinja2"
+version = "3.1.2"
+description = "A very fast and expressive template engine."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+MarkupSafe = ">=2.0"
+
+[package.extras]
+i18n = ["Babel (>=2.7)"]
+
+[[package]]
+name = "markupsafe"
+version = "2.1.1"
+description = "Safely add untrusted strings to HTML/XML markup."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "matplotlib-inline"
 version = "0.1.6"
 description = "Inline Matplotlib backend for Jupyter"
@@ -154,6 +278,17 @@ python-versions = ">=3.5"
 
 [package.dependencies]
 traitlets = "*"
+
+[[package]]
+name = "packaging"
+version = "21.3"
+description = "Core utilities for Python packages"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 
 [[package]]
 name = "parso"
@@ -228,6 +363,66 @@ python-versions = ">=3.6"
 plugins = ["importlib-metadata"]
 
 [[package]]
+name = "pyparsing"
+version = "3.0.9"
+description = "pyparsing module - Classes and methods to define and execute parsing grammars"
+category = "main"
+optional = false
+python-versions = ">=3.6.8"
+
+[package.extras]
+diagrams = ["railroad-diagrams", "jinja2"]
+
+[[package]]
+name = "pytz"
+version = "2022.6"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "requests"
+version = "2.28.1"
+description = "Python HTTP for Humans."
+category = "main"
+optional = false
+python-versions = ">=3.7, <4"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+charset-normalizer = ">=2,<3"
+idna = ">=2.5,<4"
+urllib3 = ">=1.21.1,<1.27"
+
+[package.extras]
+socks = ["PySocks (>=1.5.6,!=1.5.7)"]
+use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
+
+[[package]]
+name = "ruamel.yaml"
+version = "0.17.21"
+description = "ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order"
+category = "main"
+optional = false
+python-versions = ">=3"
+
+[package.dependencies]
+"ruamel.yaml.clib" = {version = ">=0.2.6", markers = "platform_python_implementation == \"CPython\" and python_version < \"3.11\""}
+
+[package.extras]
+docs = ["ryd"]
+jinja2 = ["ruamel.yaml.jinja2 (>=0.2)"]
+
+[[package]]
+name = "ruamel.yaml.clib"
+version = "0.2.7"
+description = "C version of reader, parser and emitter for ruamel.yaml derived from libyaml"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -280,6 +475,27 @@ optional = false
 python-versions = ">=2"
 
 [[package]]
+name = "uritemplate"
+version = "4.1.1"
+description = "Implementation of RFC 6570 URI Templates"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "urllib3"
+version = "1.26.12"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, <4"
+
+[package.extras]
+brotli = ["brotlicffi (>=0.8.0)", "brotli (>=1.0.9)", "brotlipy (>=0.6.0)"]
+secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "urllib3-secure-extra", "ipaddress"]
+socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
+
+[[package]]
 name = "wcwidth"
 version = "0.2.5"
 description = "Measures the displayed width of unicode strings in a terminal"
@@ -290,7 +506,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "71edb4975d0fde1266b67048801c3acd2c9840cea25d31edcaf036a56d9a46f6"
+content-hash = "f6f8bbe87067f1203f0a82a02fb4d251c13cd28ac61439ba79413af6f7a44174"
 
 [metadata.files]
 appnope = [
@@ -306,20 +522,32 @@ backcall = [
     {file = "backcall-0.2.0-py2.py3-none-any.whl", hash = "sha256:fbbce6a29f263178a1f7915c1940bde0ec2b2a967566fe1c65c1dfb7422bd255"},
     {file = "backcall-0.2.0.tar.gz", hash = "sha256:5cbdbf27be5e7cfadb448baf0aa95508f91f2bbc6c6437cd9cd06e2a4c215e1e"},
 ]
+certifi = []
+charset-normalizer = []
 colorama = []
+coreapi = []
+coreschema = []
 decorator = [
     {file = "decorator-5.1.1-py3-none-any.whl", hash = "sha256:b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"},
     {file = "decorator-5.1.1.tar.gz", hash = "sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330"},
 ]
 django = []
 django-extensions = []
+djangorestframework = []
+drf-yasg = []
 executing = []
+idna = []
+inflection = []
 ipython = []
+itypes = []
 jedi = [
     {file = "jedi-0.18.1-py2.py3-none-any.whl", hash = "sha256:637c9635fcf47945ceb91cd7f320234a7be540ded6f3e99a50cb6febdfd1ba8d"},
     {file = "jedi-0.18.1.tar.gz", hash = "sha256:74137626a64a99c8eb6ae5832d99b3bdd7d29a3850fe2aa80a4126b2a7d949ab"},
 ]
+jinja2 = []
+markupsafe = []
 matplotlib-inline = []
+packaging = []
 parso = [
     {file = "parso-0.8.3-py2.py3-none-any.whl", hash = "sha256:c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75"},
     {file = "parso-0.8.3.tar.gz", hash = "sha256:8c07be290bb59f03588915921e29e8a50002acaf2cdc5fa0e0114f91709fafa0"},
@@ -342,6 +570,11 @@ pure-eval = [
     {file = "pure_eval-0.2.2.tar.gz", hash = "sha256:2b45320af6dfaa1750f543d714b6d1c520a1688dec6fd24d339063ce0aaa9ac3"},
 ]
 pygments = []
+pyparsing = []
+pytz = []
+requests = []
+"ruamel.yaml" = []
+"ruamel.yaml.clib" = []
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
@@ -350,6 +583,8 @@ sqlparse = []
 stack-data = []
 traitlets = []
 tzdata = []
+uritemplate = []
+urllib3 = []
 wcwidth = [
     {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
     {file = "wcwidth-0.2.5.tar.gz", hash = "sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83"},

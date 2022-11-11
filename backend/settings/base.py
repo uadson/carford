@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'shop',
     
     # 3rd apps
+    'drf_yasg',
     'rest_framework',
+    'rest_framework_swagger',
     'django_extensions',
 ]
 
