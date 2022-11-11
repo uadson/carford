@@ -50,7 +50,7 @@ class Customer(Base):
 class Order(Base):
     store = models.ForeignKey(Store, on_delete=models.CASCADE, related_name='shop_orders')
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
-    car = models.ForeignKey(Car, on_delete=models.CASCADE)
+    car = models.ManyToManyField(Car, related_name='shop_customers')
     
     class Meta:
-        ordering = ['-created']
+        ordering = ['created']
