@@ -1,6 +1,8 @@
 
 ### To-Do List App
 
+[![Build](https://github.com/uadson/carford/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/uadson/carford/actions/workflows/build.yml)
+
 Nork-Town is a weird place.  
 Crows cawk the misty morning while old men squint.  
 It’s a smalltown, so the mayor had a bright idea to limit the number of cars a person may possess.  
